@@ -93,7 +93,7 @@ function Navbar() {
 
 
             <div className='menuIcon'>
-              <MdSegment className='menuBtn' size={30} onClick={()=>{setShowNav((prev)=> !prev)}}/>
+              <MdSegment className='menuBtn' size={40} onClick={()=>{setShowNav((prev)=> !prev)}}/>
             </div>
 
 
