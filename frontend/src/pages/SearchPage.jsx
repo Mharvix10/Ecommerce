@@ -11,7 +11,7 @@ function Searchpage() {
     const navigate = useNavigate()
     const item = params.item
     const [products, setProducts] = useState([])
-    const [loading, setLoading] = useState(false)
+    const [loading, setLoading] = useState(true)
 
 
     const productDetails=async(id)=>{
