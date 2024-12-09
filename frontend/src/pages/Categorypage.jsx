@@ -11,7 +11,7 @@ function Categorypage() {
     const navigate = useNavigate()
     const category = params.category
     const [products, setProducts] = useState([])
-    const [loading, setLoading] = useState(false)
+    const [loading, setLoading] = useState(true)
 
 
     const productDetails=async(id)=>{
