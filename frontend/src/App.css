@@ -164,6 +164,11 @@ select{
     position: absolute;
     z-index: 2;
 }
+.searchList li{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: larger;
+}
 .brandList{
     background-color: rgb(249, 244, 244);
     font-size: larger;
