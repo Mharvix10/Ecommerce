@@ -76,7 +76,7 @@ function Navbar() {
 
             <div className='horizontal'>
                 <input className='searchItem' type="text" placeholder='Search for Products, Brands and Items' name="" id="" value={searchWord} onChange={onChange} />
-                <FaSearch className='searchIcon' size={20} onClick={()=>{fetchInput()}}/>
+                <FaSearch className='searchIcon' size={30} onClick={()=>{fetchInput()}}/>
             </div>
 
 
